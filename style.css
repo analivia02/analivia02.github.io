@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #333;
+    
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    padding-bottom: 55px;
+    border-radius: 50px;
+    margin-top: 100px; 
+}
+h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #333;
+    border-radius: 5px;
+
+    padding-bottom: 3px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #491e01;
+    text-decoration: none;
+}
+
+header, footer, nav {
+    background-color: #333;
+    color: #000000; 
+    text-align: center;
+}
+.header{
+    padding-top: 100px;
+}
+
+nav {
+    background-color: #808080; /* Fundo da navegação */
+    overflow: hidden; /* Impede que os links se estendam para fora */
+    position: fixed; /* Fixa a navegação no topo */
+    width: 70%; /* Largura total da página */
+    left: 15%;
+    top: 0; /* Alinha a navegação no topo */
+    z-index: 1000; 
+    margin: auto;
+   
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px; 
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+/* Estilos para seções */
+section {
+    margin-top: 80px; 
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cecaca;
+    border-radius: 10px;
+
+}
+
+.apresentacao h2 {
+    font-size: 22px;
+    margin-bottom: 1px;
+}
+
+.apresentacao p {
+    margin-bottom: 1px;
+}
+
+#apresentacao img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+.habilidades-tecnicas ul {
+    list-style-type: none;
+}
+
+.habilidades-tecnicas li {
+    margin-bottom: 5px;
+}
+
+.educacao, .certificacoes {
+    margin-bottom: 30px;
+}
+
+.educacao div, .certificacoes div {
+    margin-bottom: 10px;
+}
+
+.educacao h3, .certificacoes h3 {
+    margin-bottom: 5px;
+}
+
+.experiencia div {
+    margin-bottom: 10px;
+}
+
+.experiencia p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #360909;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; 
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    #apresentacao {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+
+}
